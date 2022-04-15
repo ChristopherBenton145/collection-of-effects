@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../../assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="Collection of Effects">
+    <meta name="description" content="A huge collection of effects created with HTML, CSS, Javascript, etc.">
+    <meta name="author" content="Christopher Benton">
+    <title>Collection of Effects</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="./digital-clock.css">
+    <script defer src="./digital-clock.js"></script>
+</head>
+<div id="home"><a href="../../../index.html">Home</a></div>
+<body>
+    <div id="time">
+        <div class="circle" style="--clr:#ff2972;">
+            <div class="dots hr_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="hours">00</div>
+        </div>
+        <div class="circle" style="--clr:#fee800;">
+            <div class="dots min_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--clr:#04fc40;">
+            <div class="dots sec_dot"></div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+        <div class="ap">
+            <div id="ampm">AM</div>
+        </div>
+    </div>
+</body>
+</html>
