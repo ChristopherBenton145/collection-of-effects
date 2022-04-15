@@ -54,7 +54,7 @@ body {
   
 .content a {
   color: #00b4d8;
-  font-size: 20px;
+  font-size: 16px;
   transition: color 0.2s;
 }
   
@@ -89,4 +89,10 @@ body {
   
 .content .hard {
   background-color: var(--color-red);
+}
+
+@media (min-width: 800px) {
+  .content a {
+    font-size: 25px;
+  }
 }
